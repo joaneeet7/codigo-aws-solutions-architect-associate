@@ -1,0 +1,5 @@
+# ALB (eu-central-1): DemoRoute53ALB-1745526992.eu-central-1.elb.amazonaws.com 
+
+# Instancia de Europa (eu-central-1): 3.68.97.255
+# Instancia de Estados Unidos (us-east-1): 54.163.5.81
+# Instancia de Asia (ap-southeast-1): 18.141.203.135

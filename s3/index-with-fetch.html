@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Mi primera Web</title>
+    </head>
+    <body>
+        <h1>Me encanta el café</h1>
+        <p>Hola mundo!</p>
+    </body>
+
+    <img src="coffee.jpg" width=500/>
+
+    <!-- CORS demo -->
+    <div id="tofetch"/>
+    <script>
+        var tofetch = document.getElementById("tofetch");
+
+        fetch('http://<bucket URL>/extra-page.html')
+        .then((response) => { 
+            return response.text();
+        })
+        .then((html) => {
+            tofetch.innerHTML = html     
+        });
+    </script>
+</html>
+
